@@ -25,7 +25,7 @@ function openNavbar() {
             hamburgerBtnMenu.style.display = 'none';
             hamburgerBtnMenu.removeEventListener('focusout', focusEvent);
             window.removeEventListener('resize', focusEvent);
-        }, 100);
+        }, 1000);
     }
     hamburgerBtnMenu.style.display = 'block';
     hamburgerBtnMenu.focus();
