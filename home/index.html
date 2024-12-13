@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>srpcd.dev &middot; Home</title>
+    <link rel="icon" type="image/png" href="/logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/root.css">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+    <main>
+
+        <div class="content">
+            <nav class="navbar">
+                <img src="/logo.png" class="navlogo"></img>
+                <p style="padding-top: 55px; padding-left: 20px;" class="navtext">srpcd.dev</h1>
+    
+                <div class="navbuttons">
+                    <a class="navbutton" href="/contact/">Contact</a>
+                    <a class="navbutton" href="/projects/">Projects</a>
+                    <a class="navbutton" href="/about/">About</a>
+                    <a class="selectednavbutton">Home</a>
+                </div>
+
+                <div style="display: flex; flex-direction: row-reverse; width: 100%; margin-top: 40px;" id="hamburgerBtn">
+                    <div style="width: 60px; margin-right: 80px;"><button onclick="openNavbar()" class="hamburgerButton"><i class="fa fa-bars"></i></button></div>
+                </div>
+
+                <div class="hamburgerButtonMenu" id="hamburgerBtnMenu">
+                    <div class="navmenubuttons">
+                        <a class="navmenubutton" href="/contact/"">Contact</a>
+                        <a class="navmenubutton" href="/projects/">Projects</a>
+                        <a class="navmenubutton" href="/about/">About</a>
+                        <a class="selectednavmenubutton">Home</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div>
+                <p class="ptext div-padding-1" style="width: calc(100% - 80px);">
+                    I'm <strong>SrpCD</strong>, a windows experimenter and software engineer. I mostly code in Python, and I'm 
+                    currently working on <a href="/projects/">Verecory</a>. See more about me using the navigation bar above.</p>
+
+                <div class="content-information">
+                    <div style="display: flex; flex-direction: column; margin-right: 120px;">
+                        <p class="htext div-padding-1">What do I do</p>
+                        <div style="display: flex; flex-direction: row;" class="div-padding-4">
+                            <p class="ptext" style="user-select: none;">🧱</p> <p class="ptext div-padding-2">I develop GUI applications and share the source code on my GitHub.</p></div>
+                        <div style="display: flex; flex-direction: row;" class="div-padding-4">
+                            <p class="ptext" style="user-select: none;">🧪</p> <p class="ptext div-padding-2">I do experiments on the Microsoft Windows operating system and share them with my subscribers.</p></div>
+                        <div style="display: flex; flex-direction: row;" class="div-padding-4">
+                            <p class="ptext" style="user-select: none;">🎥</p> <p class="ptext div-padding-2">I upload content on my <a href="https://youtube.com/@srpcdgaming" target="_blank">YouTube</a> channel.</p></div>
+                    </div>
+                    <div style="display: flex; flex-direction: column;">
+                        <p class="htext div-padding-1" style="width: 270px;">What I like</p>
+                            <p class="ptext div-padding-3"><span class="ptext div-padding-5" style="user-select: none;">🧮</span>Mathematics</p>
+                            <p class="ptext div-padding-3"><span class="ptext div-padding-5" style="user-select: none;">💾</span>Technology</p>
+                            <p class="ptext div-padding-3"><span class="ptext div-padding-5" style="user-select: none;">🛠️</span>Software</p>
+                            <p class="ptext div-padding-3"><span class="ptext div-padding-5" style="user-select: none;">🌍</span>Geography</p>
+                            <p class="ptext div-padding-3"><span class="ptext div-padding-5" style="user-select: none;">💻</span>Developing</p>
+
+                    </div>
+                </div>
+
+                <footer style="display: flex; flex-direction: column-reverse; height: 150px;">
+                    <p class="sptext" style="text-align: center; margin-bottom: 20px;">&copy; srpcd.dev, 2023-2024. All rights reserved.</p>
+                    
+
+                </footer>
+            </div>
+        </div>
+    </main>
+    <script src="/index.js"></script>
+</body>
+</html>
