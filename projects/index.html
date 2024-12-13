@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>srpcd.dev &middot; Projects</title>
+    <link rel="icon" type="image/png" href="/logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/root.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/projects/projects.css">
+</head>
+<body>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+    <main>
+        <div class="content">
+            
+            <nav class="navbar">
+                <img src="/logo.png" class="navlogo"></img>
+                <p style="padding-top: 55px; padding-left: 20px;" class="navtext">srpcd.dev</h1>
+
+                <div class="navbuttons">
+                    <a class="navbutton" href="/contact">Contact</a>
+                    <a class="selectednavbutton">Projects</a>
+                    <a class="navbutton" href="/about">About</a>
+                    <a class="navbutton" href="/home/">Home</a>
+                </div>
+
+                <div style="display: flex; flex-direction: row-reverse; width: 100%; margin-top: 40px;" id="hamburgerBtn">
+                    <div style="width: 60px; margin-right: 80px;"><button onclick="openNavbar()" class="hamburgerButton"><i class="fa fa-bars"></i></button></div>
+                </div>
+
+                <div class="hamburgerButtonMenu" id="hamburgerBtnMenu">
+                    <div class="navmenubuttons">
+                        <a class="navmenubutton" href="/contact/">Contact</a>
+                        <a class="selectednavmenubutton">Projects</a>
+                        <a class="navmenubutton" href="/about/">About</a>
+                        <a class="navmenubutton" href="/home/">Home</a>
+                    </div>
+
+                </div>
+            </nav>
+
+            <div>
+                <p class="htext div-padding-1" style="width: calc(100% - 80px);">My Projects</p>
+                <p class="ptext div-padding-1" style="width: calc(100% - 80px); padding-top: 0px;">These are some projects I'm making or have made that you might like.</p>
+                <div class="project" id="project1 qrcode-utility">
+                    <p class="project-text" style="margin-left: 25px; padding-top: 7px; margin-right: 25px;">QR-Code Utility</p>
+                    <p class="project-text small-text" style="margin-left: 25px; margin-top: 11px; margin-right: 25px;">Easy to use graphical user interface and install for managing various types of barcodes.</p>
+                    <div style="display: flex; flex-direction: row;">
+                        <img style="margin-left: 25px;" src="https://raw.githubusercontent.com/srpcd/qrcode-utility/refs/heads/main/src/icons/qrcode_gen_icon.ico" width="95" height="90"></img>
+                        <div style="display: flex; flex-direction: column;">
+                            <p class="project-text small-text" style="margin-left: 10px; margin-top: 15px; margin-right: 25px;">Download: <a href="https://github.com/srpcd/qrcode-utility" target="_blank">Source</a></p>
+                            <p class="project-text small-text" style="margin-left: 10px; margin-top: 1px; margin-right: 25px; padding-bottom: 7px;">This is not pre-built, you need to build this yourself. The instructions are in the source code.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project" id="project2 verecory">
+                    <p class="project-text" style="margin-left: 25px; padding-top: 7px; margin-right: 25px;">Verecory</p>
+                    <p class="project-text small-text" style="margin-left: 25px; margin-top: 11px; margin-right: 25px;">Verecory (formerly known as Sysrectools), is an easy to use secured recovery environment for computers that need extended security.</p>
+                    <p class="project-text small-text" style="margin-left: 25px; margin-top: 11px; margin-right: 25px; padding-bottom: 7px;">Working in progress.<br>Planned release date: 2025.</p>
+                    
+                </div>
+
+            </div>
+
+            <div style="display: flex; flex-direction: column-reverse; height: 100px;">
+                <p class="sptext" style="text-align: center; margin-bottom: 20px;">&copy; srpcd.dev, 2023-2024. All rights reserved.</p>
+            </div>
+        </div>
+
+    </main>
+    <script src="/index.js"></script>
+    
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+.project {
+    border-radius: 20px;
+    background-color: #242424;
+    max-height: 45px;
+    width: calc(100% - 120px);
+    margin: 10px 10px 10px 35px;
+    border: 1px solid #444444;
+    box-shadow: 5px 5px 20px #090909;
+    overflow: hidden;
+    transition: max-height 0.7s, background-color 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.project:hover {
+    max-height: 500px;
+    padding-bottom: 10px;
+    background-color: #313131;
+}
+
+.project-text {
+    font-family: "Segoe UI", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #bbbbbb;
+}
+
+.small-text {
+    font-family: "Segoe UI", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #bbbbbb;
+    cursor: text;
+}
