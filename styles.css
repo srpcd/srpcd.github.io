@@ -211,7 +211,9 @@ a:hover {
         justify-self: normal; 
         margin-right: 10px;
     }
+}
 
+@media (max-width: 920px) {
     .content-information {
         flex-direction: column;
     }
