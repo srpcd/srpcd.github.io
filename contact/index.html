@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>srpcd.dev &middot; Contact</title>
+    <link rel="icon" type="image/png" href="/logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/root.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/contact/form.css">
+</head>
+<body>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+    <main>
+        <div class="content">
+            
+            <nav class="navbar">
+                <img src="/logo.png" class="navlogo"></img>
+                <p style="padding-top: 55px; padding-left: 20px;" class="navtext">srpcd.dev</h1>
+
+                <div class="navbuttons">
+                    <a class="selectednavbutton">Contact</a>
+                    <a class="navbutton" href="/projects/">Projects</a>
+                    <a class="navbutton" href="/about/">About</a>
+                    <a class="navbutton" href="/home/">Home</a>
+                </div>
+
+                <div style="display: flex; flex-direction: row-reverse; width: 100%; margin-top: 40px;" id="hamburgerBtn">
+                    <div style="width: 60px; margin-right: 80px;"><button onclick="openNavbar()" class="hamburgerButton"><i class="fa fa-bars"></i></button></div>
+                </div>
+
+                <div class="hamburgerButtonMenu" id="hamburgerBtnMenu">
+                    <div class="navmenubuttons">
+                        <a class="selectednavmenubutton">Contact</a>
+                        <a class="navmenubutton" href="/projects/">Projects</a>
+                        <a class="navmenubutton" href="/about/">About</a>
+                        <a class="navmenubutton" href="/home/">Home</a>
+                    </div>
+
+                </div>
+            </nav>
+
+            <div>
+                <!-- <p class="ptext div-padding-1" style="width: calc(100% - 80px);">discord contact is "srpcd"</p> -->
+                <div class="contact-content">
+                    <div class="form-container">
+                        <p class="htext" style="margin-bottom: 20px;">Contact form</p>
+                        <form autocomplete="on" action="/contact/contact" method="POST">
+                            <input type="text" id="name" class="form-input" name="name" placeholder="Enter your name *" required disabled>
+
+                            <input type="email" id="email" class="form-input" name="email" placeholder="Enter your email *" required disabled>
+
+                            <input type="text" id="subject" class="form-input" name="subject" placeholder="Enter subject" disabled>
+
+                            <textarea id="message" name="message" class="form-textarea" rows="5" cols="30" placeholder="Write your message *" required disabled></textarea>
+                            
+                            <p class="ptext" style="font-size: 13px; text-align: center;">This contact form has been disabled for maintentance.</p>
+                        </form>
+                    </div>
+                    <div style="display: flex; flex-direction: row; width: 100%;">
+                        <div style="display: flex; flex-direction: column;" class="div-padding-1">
+                            <p class="htext" style="margin-bottom: 10px;">My Socials</p>
+                            
+                            <p class="ptext" style="align-items: center; justify-content: center; margin-bottom: 6px;">
+                                <a href="https://discord.gg/TcBsbnAPQQ" target="_blank" style="display: flex; align-items: center;">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" width="24em" height="24em" inline="true" style="display: inline-block; margin-right: 5px;" alt="Discord Server"></img>
+                                    <span>My Server</span>
+                                </a>
+                            </p>
+
+                            <p class="ptext" style="align-items: center; justify-content: center; margin-bottom: 6px;">
+                                <a href="https://discord.com/users/660043349776007184" target="_blank" style="display: flex; align-items: center;">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" width="24em" height="24em" inline="true" style="display: inline-block; margin-right: 5px;" alt="Discord Profile"></img>
+                                    <span>Profile</span>
+                                </a>
+                            </p>
+
+                            <p class="ptext" style="align-items: center; justify-content: center; margin-bottom: 6px;">
+                                <a href="https://youtube.com/@srpcdgaming" target="_blank" style="display: flex; align-items: center;">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" width="24em" height="24em" inline="true" style="display: inline-block; margin-right: 5px;" alt="YouTube"></img>
+                                    <span>YouTube</span>
+                                </a>
+                            </p>
+
+                            <p class="ptext" style="align-items: center; justify-content: center; margin-bottom: 6px;">
+                                <a href="https://github.com/srpcd" target="_blank" style="display: flex; align-items: center;">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/25/25657.png" width="24em" height="24em" inline="true" style="display: inline-block; margin-right: 5px; background-color: white; border-radius: 25px;" alt="GitHub"></img>
+                                    <span>GitHub</span>
+                                </a>
+                            </p>
+
+                            <p class="ptext" style="align-items: center; justify-content: center; margin-bottom: 6px;">
+                                <a href="https://steamcommunity.com/profiles/76561199123697325" target="_blank" style="display: flex; align-items: center;">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3670/3670382.png" width="24em" height="24em" inline="true" style="display: inline-block; margin-right: 5px; background-color: white; border-radius: 20px;" alt="Steam"></img>
+                                    <span>Steam</span>
+                                </a>
+                            </p>
+
+                            <div style="display: flex; flex-direction: column; margin-top: 15px;">
+                                <p class="htext" style="margin-bottom: 10px;">Contact by Email</p>
+                            </div>
+
+                            <p class="ptext" style="align-items: center; justify-content: center; margin-bottom: 6px;">
+                                - <a href="mailto:srpcd.dev@gmail.com" target="_blank">srpcd.dev@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column-reverse; height: 100px;">
+                <p class="sptext" style="text-align: center; margin-bottom: 20px;">&copy; srpcd.dev, 2023-2024. All rights reserved.</p>
+            </div>
+        </div>
+
+    </main>
+    <script src="/index.js"></script>
+    
+</body>
+</html>
+

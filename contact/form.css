@@ -1,0 +1,101 @@
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 1000px #191919 inset !important;
+    -webkit-text-fill-color: white !important;
+    border-radius: 0px;
+    caret-color: white;
+}
+
+.contact-content {
+    display: flex; 
+    flex-direction: row-reverse; 
+    width: 100%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0A0A0A;
+    width: 100%;
+    margin-right: 85px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form-label {
+    margin-bottom: 5px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+.form-input, .form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    background-color: #191919;
+    color: white;
+    text-decoration-color: white;
+    font-size: 16px;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.form-textarea {
+    height: 100px;
+}
+
+.form-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 100%;
+    color: #fff;
+    background-color: #2b2b2b;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #646464;
+}
+
+.content {
+    background-color: var(--secondary-color);
+    margin: 10px;
+    justify-self: center;
+    width: 850px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #090909;
+}
+
+@media (max-width: 870px) {
+    .content {
+        width: calc(100% - 20px); 
+        justify-self: normal; 
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .contact-content {
+        flex-direction: column-reverse;
+    }
+
+    .form-container {
+        width: calc(100% - 20px);
+        margin: 10px;
+        justify-self: center; 
+
+    }
+}
