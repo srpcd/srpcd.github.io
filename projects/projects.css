@@ -31,3 +31,19 @@
     color: #bbbbbb;
     cursor: text;
 }
+
+
+@media (max-width: 570px) {
+    .project {
+        margin: 10px 10px 10px 30px;
+        width: calc(100% - 80px);
+    }
+}
+
+
+@media (max-width: 405px) {
+    .project {
+        margin: 10px 10px 10px 10px;
+        width: calc(100% - 20px);
+    }
+}

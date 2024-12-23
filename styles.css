@@ -12,7 +12,6 @@ body {
 
 main {
     margin: 52px 2px 2px 2px;
-    padding: 2px;
 
     background-color: var(--primary-color);
 }
@@ -53,6 +52,10 @@ a:hover {
     border: 0;
 }
 
+.hamburgerMenuButton {
+    margin-right: 80px;
+}
+
 .hamburgerButtonMenu {
     width: 200px;
     height: 270px;
@@ -64,6 +67,10 @@ a:hover {
     padding-right: 25px;
     top: 160px;
     right: 100px;
+}
+
+.hamburgerButtonMenu:hover {
+    display: block;
 }
 
 .content-information {
@@ -90,7 +97,7 @@ a:hover {
     width: 100%;
     margin-top: 0px;
     margin-right: 85px;
-    display: flex;
+    display: none !important;
     flex-direction: row-reverse;
     overflow: hidden;
 }
@@ -205,6 +212,54 @@ a:hover {
     box-shadow: 5px 5px 20px #090909;
 }
 
+.div-padding-inside {
+    padding-left: 37px;
+}
+
+.div-space {
+    width: calc(100% - 80px);
+}
+
+.width-wrap-inside {
+    width: calc(100% - 80px);
+}
+
+.width-wrap-inside-wdid {
+    margin-right: 120px;
+}
+
+.div-space-faq-question {
+    width: calc(50% + 140px);
+}
+
+.div-space-faq-answer {
+    width: calc(50% + 80px);
+}
+
+.div-padding-1 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.div-padding-2 {
+    padding-left: 7px;
+}
+
+.div-padding-3 {
+    padding-left: 0px;
+    padding-bottom: 8px;
+    margin-right: 60px;
+}
+
+.div-padding-4 {
+    padding-left: 0px;
+    padding-bottom: 15px;
+}
+
+.div-padding-5 {
+    padding-right: 7px;
+}
+
 @media (max-width: 1020px) {
     .content {
         width: calc(100% - 20px); 
@@ -219,29 +274,100 @@ a:hover {
     }
 }
 
-.div-padding-1 {
-    padding-top: 10px;
-    padding-bottom: 15px;
-    padding-left: 37px;
+@media (max-width: 570px) {
+    main {
+        margin: 52px 0 0 0;
+    }
+
+    .content {
+        width: 100%;
+        justify-self: normal; 
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 0px;
+    }
+
+    .navlogo {
+        margin-left: 30px;
+    }
+
+    .div-space-faq-question {
+        width: 100%;
+    }
+    
+    .div-space-faq-answer {
+        width: 100%;
+    }
+
+    .div-padding-inside {
+        padding-left: 30px;
+    }
+
+    .width-wrap-inside-wdid {
+        margin-right: 50px;
+    }
+
+    .div-padding-4 {
+        padding-left: 0px;
+    }
+
+    .div-padding-3 {
+        padding-left: 0px;
+    }
+
+    .hamburgerMenuButton {
+        margin-right: 30px;
+    }
+
+    .hamburgerButtonMenu {
+        position: fixed;
+        right: 30px;
+    }
 }
 
-.div-padding-2 {
-    padding-left: 7px;
+@media (max-width: 405px) {
+    .hamburgerMenuButton {
+        margin-right: 0px;
+    }
+
+    .width-wrap-inside-wdid {
+        margin-right: 0px;
+    }
+
+    .div-padding-4 {
+        padding-left: 0;
+    }
+
+    .div-padding-3 {
+        padding-left: 0;
+    }
+
+    .div-space {
+        width: 100%;
+    }
+
+    .div-padding-inside {
+        padding-left: 12px;
+    }
+    
+    .width-wrap-inside {
+        width: 100%;
+    }
+
+    .navlogo {
+        margin-left: 10px;
+    }
+
+    .hamburgerButtonMenu {
+        position: fixed;
+        right: 0px;
+    }
 }
 
-.div-padding-3 {
-    padding-left: 37px;
-    padding-bottom: 8px;
-    margin-right: 60px;
-}
-
-.div-padding-4 {
-    padding-left: 37px;
-    padding-bottom: 15px;
-}
-
-.div-padding-5 {
-    padding-right: 7px;
+@media (max-width: 285px) {
+    .hamburgerMenuButton {
+        display: none;
+    }
 }
 
 .htext {
@@ -263,4 +389,24 @@ a:hover {
     font-weight: 400;
     font-size: 15px;
     color: #CCC;
+}
+
+@media (max-width: 1px) {
+    .navbuttons {
+        display: none !important;
+    }
+
+    #hamburgerBtn {
+        display: flex !important;
+    }
+}
+
+@media (min-width: 821px) {
+    .navbuttons {
+        display: flex !important;
+    }
+    
+    #hamburgerBtn {
+        display: none !important;
+    }
 }

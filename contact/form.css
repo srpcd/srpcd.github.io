@@ -21,7 +21,7 @@ input:-webkit-autofill:active{
     align-items: center;
     background-color: #0A0A0A;
     width: 100%;
-    margin-right: 85px;
+    margin-left: 35px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -87,7 +87,7 @@ input:-webkit-autofill:active{
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .contact-content {
         flex-direction: column-reverse;
     }
@@ -97,5 +97,22 @@ input:-webkit-autofill:active{
         margin: 10px;
         justify-self: center; 
 
+    }
+
+    .content {
+        width: 100%;
+        justify-self: normal; 
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 0px;
+    }
+
+    .hamburgerMenuButton {
+        margin-right: 30px;
+    }
+    
+    .hamburgerButtonMenu {
+        position: fixed;
+        right: 30px;
     }
 }

@@ -1,39 +1,27 @@
-function updateNavbar() {
-    const mediaQuery = window.matchMedia("(max-width: 820px)");
-    if (mediaQuery.matches) {
-        const navButtons = document.getElementsByClassName("navbuttons");
-        const hamburgerBtn = document.getElementById("hamburgerBtn");
-        for (let i = 0; i < navButtons.length; i++) {
-            navButtons[i].style.display = 'none';
-        }
-        hamburgerBtn.style.display = 'flex';
-    } else {
-        const navButtons = document.getElementsByClassName("navbuttons");
-        const hamburgerBtn = document.getElementById("hamburgerBtn");
-        for (let i = 0; i < navButtons.length; i++) {
-            navButtons[i].style.display = 'flex';
-        }
-        hamburgerBtn.style.display = 'none';
-    }
-}
+const hamburgerButton = document.querySelector('.hamburgerButton');
+const hamburgerMenu = document.querySelector('.hamburgerButtonMenu');
 
-function openNavbar() {
-    const hamburgerBtnMenu = document.getElementById("hamburgerBtnMenu");
-    hamburgerBtnMenu.setAttribute('tabindex', '-1');
-    let focusEvent = () => {
-        setTimeout(() => {
-            hamburgerBtnMenu.style.display = 'none';
-            hamburgerBtnMenu.removeEventListener('focusout', focusEvent);
-            window.removeEventListener('resize', focusEvent);
-        }, 1000);
-    }
-    hamburgerBtnMenu.style.display = 'block';
-    hamburgerBtnMenu.focus();
-    hamburgerBtnMenu.addEventListener('focusout', focusEvent);
-    window.addEventListener('resize', focusEvent);
-}
+let hamburgerMenuHovered = false;
 
-window.addEventListener('resize', () => {updateNavbar()});
-updateNavbar();
+hamburgerMenu.addEventListener('mouseenter', () => {
+    hamburgerMenuHovered = true
+});
+
+hamburgerMenu.addEventListener('mouseleave', () => {
+    hamburgerMenuHovered = false
+    hamburgerMenu.style.display = 'none';
+});
+
+hamburgerButton.addEventListener('mouseenter', () => {
+    hamburgerMenu.style.display = 'block';
+});
+
+hamburgerButton.addEventListener('mouseleave', () => {
+    setTimeout(() => {
+        if (!hamburgerMenuHovered) {
+            hamburgerMenu.style.display = 'none';
+        }
+    }, 100);
+});
 
 
