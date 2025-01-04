@@ -4,7 +4,7 @@
 - Visual Studio Code
 - HTML, CSS and JavaScript
 
-Copyright: <strong>© srpcd.dev, 2023-2024. All rights reserved.<strong>
+Copyright: <strong>© srpcd.dev, 2023-2025. All rights reserved.<strong>
 <br><br>
 # Home
 I'm <strong>SrpCD</strong>, a windows experimenter and software engineer. I mostly code in Python, and I'm currently working on <a href="https://srpcd.github.io/projects/" target="_blank">Verecory</a>. See more about me using the navigation bar above.
