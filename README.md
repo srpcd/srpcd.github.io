@@ -47,6 +47,18 @@ Easy to use graphical user interface and install for managing various types of b
 Download: <a href="https://github.com/srpcd/qrcode-utility" target="_blank">Source</a>, <a href="https://github.com/srpcd/qrcode-utility/releases" target="_blank">Windows</a><br>
 This is pre-built, but you can also build this yourself. The instructions are in the source code.
 
+## Calculator-Tk<br>
+Easy to use tkinter calculator with built-in history and settings.
+
+Download: <a href="https://github.com/srpcd/calculator-tk" target="_blank">Source</a>, <a href="https://github.com/srpcd/calculator-tk/releases" target="_blank">Windows</a><br>
+This is pre-built, but you can also build this yourself. The instructions are in the source code.
+
+## OS-Shell<br>
+A basic shell OS made in assembly. Can be booted as an OS.
+
+Download: <a href="https://github.com/srpcd/os-shell" target="_blank">Source</a><br>
+You have to build this yourself. The instructions are in the source code.
+
 ## Verecory<br>
 Verecory (formerly known as Sysrectools), is an easy to use secured recovery environment for computers that need extended security.
 
