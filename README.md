@@ -53,11 +53,23 @@ Easy to use tkinter calculator with built-in history and settings.
 Download: <a href="https://github.com/srpcd/calculator-tk" target="_blank">Source</a>, <a href="https://github.com/srpcd/calculator-tk/releases" target="_blank">Windows</a><br>
 This is pre-built, but you can also build this yourself. The instructions are in the source code.
 
-## OS-Shell<br>
-A basic shell OS made in assembly. Can be booted as an OS.
+## TerOS<br>
+TerOS (formerly known as OS-Shell), is an OS (kernel) made in C and assembly. Can be booted from any hardware with a BIOS.
 
-Download: <a href="https://github.com/srpcd/os-shell" target="_blank">Source</a><br>
-You have to build this yourself. The instructions are in the source code.
+Download: <a href="https://github.com/srpcd/os-shell" target="_blank">Source</a>, <a href="https://github.com/srpcd/teros/releases" target="_blank">Image</a><br>
+This is pre-built, but you can also build this yourself. The instructions are in the source code.
+
+## Console-Games<br>
+An application to be run by a command line and it contains 2 command line games.
+
+Download: <a href="https://github.com/srpcd/console-games" target="_blank">Source</a>, <a href="https://github.com/srpcd/console-games/releases" target="_blank">Windows</a><br>
+This is pre-built, but you can also build this yourself. The instructions are in the source code.
+
+## srpcd.github.io<br>
+I'm SrpCD, a windows experimenter and software engineer.
+
+Download: <a href="https://github.com/srpcd/srpcd.github.io" target="_blank">Source</a>, <a href="https://srpcd.github.io" target="_blank">Website</a><br>
+This is hosted on <a href="https://srpcd.github.io">srpcd.github.io</a>. The source code is available.
 
 ## Verecory<br>
 Verecory (formerly known as Sysrectools), is an easy to use secured recovery environment for computers that need extended security.
